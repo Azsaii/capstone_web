@@ -258,7 +258,7 @@ const HistoryTalesScreen = () => {
        
         <Box sx={{ p: 2 }}>
             <Typography variant="h1" component="div" sx={{ fontWeight: 'bold', fontSize: 40, marginBottom: 5 }}>
-                <AccessTime sx={{ fontSize: 40 }} /> 역사 이야기
+                <AccessTime sx={{ fontSize: 40  }} /> 역사 이야기
             </Typography>
             <Box sx={{ mb: 2 }}>
                 <Typography variant="h6" component="div" sx={{ fontWeight: 'bold', fontSize: 20 }}>
