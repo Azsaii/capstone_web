@@ -30,6 +30,7 @@
   position: relative;
   display: inline-block;
   margin-right: -130px; /* 메뉴 사이의 우측 간격을 설정 */
+  z-index: 2000; /* 메뉴 아이템을 더 높은 z-index로 설정 */
 }
 
 .menu-content {
@@ -38,7 +39,7 @@
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  z-index: 1;
+  z-index: 2001; /* 메뉴 콘텐츠가 메뉴 버튼보다 더 높은 z-index를 가지도록 설정 */
 }
 
 .menu:hover .menu-content {
@@ -173,4 +174,3 @@
   --y: var(--move-hover);
   --shadow: var(--shadow-hover);
 }
-
