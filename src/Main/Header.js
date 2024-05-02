@@ -59,6 +59,7 @@ const Header = () => {
           <div className="sub-item"><Link to="likedVideos">즐겨찾는 영상</Link></div>
           <div className="sub-item"><Link to="quizGame">게임</Link></div>
           <div className="sub-item">용어사전</div>
+          <div className="sub-item"><Link to="eventMap">역사지도</Link></div>
         </div>
       </div>
       <div className="item">
